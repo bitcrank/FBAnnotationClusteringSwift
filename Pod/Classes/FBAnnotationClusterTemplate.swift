@@ -38,6 +38,6 @@ public struct FBAnnotationClusterTemplate {
 
 	public init (range: Range<Int>?, sideLength: CGFloat) {
 		self.init(range: range, displayMode: .SolidColor(sideLength: sideLength,
-		                                                 color: UIColor(red:0.11, green:0.70, blue:0.42, alpha:1.00)))
+		                                                 color: UIColor(red:1, green:0.26, blue:0.4, alpha:1.00)))
 	}
 }
